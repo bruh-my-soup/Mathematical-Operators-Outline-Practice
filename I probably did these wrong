@@ -21,3 +21,101 @@ x = 3 // 4
 x = 2 ** 2
 
 x = 3 +
+
+
+math = 4 + 5
+print(math)
+
+q = 6 + 10
+print(q)
+
+w = "math" + q
+print(w)
+
+string = "concat" + "is fun"
+print(string)
+
+first = "Madz"
+last = "Maulson"
+e = "Madz" + "Maulson"
+print(e)
+
+r = 4 - 5
+print(r)
+
+t = 6 - 10
+print(t)
+
+y = t - r
+print(y)
+
+u = 4 * 5
+print(u)
+
+i = 5 * 3
+print(i)
+
+o = i * u
+print(o)
+
+string = "string" * 3
+print(string)
+
+p = 4 / 5
+print(p)
+
+a = 5 / 3
+print(a)
+
+s = a / p
+print(s)
+
+d = 5 % 3
+print(d)
+
+f = 234 % 3
+print(f)
+
+g = f % d
+print(g)
+
+h = 5 // 3
+print(h)
+
+j = 234 // 3
+print(j)
+
+k = h // j
+print(k)
+
+l = 2 ** 2
+print(l)
+
+z = 3 ** 3
+print(z)
+
+x = l ** z
+print(x)
+
+
+'''
+This function takes a list of FIVE numbers and calculates the:
+sum (all of the numbers added up)
+average (the sum of all of the numbers divided by how many numbers were added together)
+range (biggest number - smallest number)
+'''
+
+'''
+def calculations(list):
+  print("the sum is:")
+  sum = list[0] + list[1] + list[2] + list[3] + list[4]
+  print(sum)
+  
+  print("the average is:")
+  average = sum / 5
+  print(averge)
+  
+  print("the range is:")
+  range = list[4] - list[0]
+  print(range)
+  '''

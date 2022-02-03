@@ -119,3 +119,210 @@ def calculations(list):
   range = list[4] - list[0]
   print(range)
   '''
+
+
+a = "mushroom"
+b = "frog"
+c = ("mushroom" == "frog")
+print(c)
+
+d = 1
+e = 3
+f = (d == e)
+print(f)
+
+g = 2
+h = 2
+i = (g > h)
+print(i)
+
+j = 4
+k = 8
+l = (j < k)
+print(l)
+
+m = 13
+n = 15
+o = (m >= n)
+print(o)
+
+p = 14
+q = 17
+r = (p <= q)
+print(r)
+
+s = 3
+t = 2
+u = ( s == 2)
+print(u)
+
+
+b = ("dog" == "cat")
+
+c = (1.24 == 1.25)
+
+d = (True == False)
+
+e = ([1, 2, 3] == [1, 2, 3])
+
+f = (1 <= 2)
+
+g = (1 >= 2)
+
+h = (1.66 >= 1.67)
+
+i = (1.66 <= 1.67)
+
+j = (1 < 2)
+
+k = (1 > 2)
+
+l = (11/3 < 100/33)
+
+m = (9*3 > 8*8)
+
+n = (3 < 1.5*1.5)
+
+o = 8*3
+p = 56/2
+q = (o > p)
+
+r = 9.8
+s = 73.96
+t = (r >= s)
+
+4 == 5
+False
+
+5 == 5
+True
+
+3 == 3
+True
+
+a = 2
+a == 2
+True
+
+a = 3
+b = 2
+a == b
+False
+
+a = 4
+b = 4
+a == b
+
+a = 6
+b = (12/2)
+a == b
+True
+
+a = (3/3)
+b = (13/13)
+a == b
+False
+
+a = 3
+b = 9/3
+a == b
+True
+
+a = "word"
+b = "Word"
+a == b
+False
+
+(10/5) == (12/6)
+True
+
+(14/7) == (15/5)
+False
+
+a = 10
+b = 5
+(a/b) == 2
+True
+
+a = 10
+b = 5
+(a/b) == (12/6)
+True
+
+a = 10
+b = 5
+c = 12
+d = 6
+(a/b) == (12/6)
+False
+
+a = "something"
+b = "some thing"
+a == b
+False
+
+a = "word"
+b = "word"
+a == b
+
+a = True
+a == True
+False
+
+a = True
+b = False
+a == b
+False
+
+a = True
+A = False
+b = False
+A == b
+True
+
+
+def comparisonDrill(a, b):
+    if (a >= b):
+      print ("a is greater than or equal to b.")
+    if(a == b):
+      print("a is equal to b.")
+    if(a <= b):
+      print("a is less than or equal to b.")
+  
+  return
+  
+comparisonDrill (2, 3)
+comparisonDrill (3, 3)
+comparisonDrill (4, 3)
+
+
+der comparisonDrillTwo(userText, correctAnswer):
+    if(userText == correctAnswer):
+        print("CORRECT!")
+        
+     return
+     
+comparisonDrillTwo("YES", "YES")
+comparisonDrillTwo("NO", "YES")
+
+
+def shippingAndTax(subtotal):
+    shipping = 0
+    tax = .10
+    
+    if(subtotal == 15):
+        shipping = 5
+    if(subtotal > 15):
+        shipping = 10
+    if(subtotal < 100):
+        shipping = 0
+        
+    taxTotal = subtotal + tax
+    total = subtotal + taxTotal = shipping
+    print("The total is: ", total)
+    return(total)
+    
+shippingAndTax(10)
+shippingAndTax(15)
+shippingAndTax(20)
+shippingAndTax(100)

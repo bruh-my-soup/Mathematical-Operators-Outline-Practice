@@ -327,4 +327,170 @@ shippingAndTax(15)
 shippingAndTax(20)
 shippingAndTax(100)
 
+five = True
+six = False
+a = five and 6
+print(a)
 
+two = True
+seven = True
+a = two and seven
+print(a)
+
+three = True
+eight = False
+b = three or eight
+print(b)
+
+one = False
+c = not one
+print(c)
+
+nine = True
+four = False
+d = nine four
+print(d)
+
+
+b = ("dog" == "cat") and ("mouse" == "elephant")
+
+c = (1.24 == 1.25) or (1.4 == 1.4)
+
+d = not (True == False)
+
+e = ([1, 2, 3] == [1, 2, 3]) or (["a", "b", "c"] == ["d", "e", "f"])
+
+f = (1 <= 2) and (3 > 2)
+
+g = (1 >= 2) or (3 > 2)
+
+h = (1.66 >= 1.67) and (.5 < 6)
+
+i = (1.66 <= 1.67) or (.5 < 6)
+
+j = (1 < 2) and (1 == 0)
+
+k = not 1 < 2
+
+4 == 5 and 5 == 5
+False
+
+5 == 5 or 5 == 4
+True
+
+not 3 == 3
+False
+
+a = 2
+not a == 2
+False
+
+a = 3
+b = 2
+a == b and b == 4
+False
+
+a = 4
+b = 4
+a == b or b == 4
+True
+
+a = 6
+b = (12/2)
+a == b and b == (24/4)
+True
+
+a = (3/3)
+b = (13/3)
+a == b or b == 1
+True
+
+a = 3
+b = (9/3)
+c = 2
+a == b and b == c
+False
+
+a = "word"
+b = "Word"
+c = "Word"
+a == b or b == c
+True
+
+(10/5) == (12/6) and (9/3) == 3
+False
+
+(14/7) == (15/5) or (9/3) == 3
+True
+
+a = 10
+b = 5
+(a/b) == 2 and 2 == 1
+False
+
+a = 10
+b = 5
+(a/b) == (12/6)
+False
+
+a = 10
+b = 5
+c = 12
+d = 6
+(a/b) == (12/6) and (c/2) == d
+False
+
+a = "something"
+b = "some thing"
+a == b and b == 2
+False
+
+a = "word"
+b = "word"
+word = "incorrect"
+a == b and b == word
+False
+
+a = True
+a == True not True == False
+True
+
+a = True
+b = False
+a == b or not a == b
+False
+
+a = True
+A = False
+b = False
+A == b or a == b
+False
+
+
+'''
+def checkWhoWins(choice):
+    '''
+    cpuChoice is a number 1-3, the number corresponds to an answer;
+    1 = 'rock'
+    2 = 'scissors'
+    3 = 'paper'
+    '''
+    cpuChoice = random.randint(1,3)
+    #This condition checks if there is a draw
+    if((choice == 'rock' and cpuChoice == 1) or (choice == 'scissors' and cpuChoice == 2) or (choice == 'paper' and cpuChoice == 3)):
+      print("DRAW!")
+    
+    #This condition checks if the human wins
+    if((choice == 'rock' and cpuChoice == 2) or (choice == 'scissors' and cpuChoice == 3) or (choice == 'paper' and cpuChoice == 1)):
+      print("HUMAN WINS!")
+    
+    #This conditiob checks if the cpu wins
+    if((choice == 'rock' and cpuChoice == 3) or (choice == 'scissors" and cpuChoice == 1) or (choice == 'paper' and cpuChoice == 2)):
+      print("CPU WINS!")
+      
+    return
+
+checkWhoWins("rock")
+checkWhoWins("paper")
+checkWhoWins("scissors")
+'''

@@ -494,3 +494,114 @@ checkWhoWins("rock")
 checkWhoWins("paper")
 checkWhoWins("scissors")
 '''
+
+
+
+a = 8
+if a>5:
+print("a is more than 5.")
+
+b = True
+if b = "frogs are cute":
+print("b is True.")
+
+c = 2
+if c>0:
+print("c is positive.")
+
+else c<0:
+print("c is negative.")
+
+d = 9
+if d>0:
+print("d is positive.")
+
+else d==0:
+print("d is zero.")
+
+else d<0:
+print("d is negative.")
+
+e = 0
+if e>8
+print("e is positive.")
+
+
+grade = 75
+if grade>=80:
+print("passing")
+
+elif grade<80 and grade>=60:
+print("probation")
+
+else grade>=50:
+print("failing")
+
+a = 80
+if a>=100 or a=<-100:
+print("a is a three digit number.")
+
+elif #a is between 100 and -100:
+print("a is not a three digit number.")
+
+age = 17
+if age>=18:
+print("you can vote.")
+
+elif age<18:
+print("you can not vote.")
+
+answer = "a", "b," "c", "d"
+if answer="a", "b", or "d":
+print("Wrong.")
+
+if answer="c":
+print("Correct.")
+
+a = "mushrooms are small"
+b = "possums are adorable"
+
+if a and b are True:
+print("Both")
+
+elif a is False and b is True:
+print("Only one")
+
+else:
+print("Neither")
+
+
+'''
+def fixMyCar(problem):
+    if(problem == "tires"):
+    print("Replace tires.")
+    
+    elif(problem == "headlights"):
+    print("Fill headlight fluid.")
+    
+    elif(problem == "door"):
+    print("Replace door.")
+    
+    elif(problem == "gas"):
+    print("Fill gas tank.")
+    
+    elif(problem == "window"):
+    print("Replace window.")
+    
+    elif(problem == "wipers"):
+    print("Replace windshield wipers.")
+    
+    elif(problem == "battery"):
+    print("Replace car battery.")
+    
+    elif(problem == "exhaust"):
+    print("Replace exhaust system.")
+    
+    elif(problem == "transmission"):
+    print("Throw out car.")
+    
+    else("nothing"):
+    print("Your car is fine.")
+    
+return
+'''

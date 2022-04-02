@@ -605,3 +605,72 @@ def fixMyCar(problem):
     
 return
 '''
+
+
+
+x = 4
+while (x > 1):
+  print(x)
+  
+  x = x - 1
+  
+y = 14
+while (y < 20):
+  print(y)
+  
+  y = y + 1
+  
+z = 55
+while (z > 50):
+  print(z)
+  
+  z = z - 1
+  
+  if (z == 50):
+          break
+          
+var = "volleyball" "basketball" "baseball"
+for x in var:
+  print(x)
+  
+var = "Don't go there. There's creatures who are hiding in the dark"
+for x in var:
+  print(x)
+  
+var = "Avatar" "Jurrasic Park" "Ponyo" "How to Train Your Dragon 2" "Hocus Pocus"
+for x in var:
+  print(x)
+  
+  if (Avatar == x):
+              break
+              
+              
+              
+def counting(100):
+
+x = 0
+while (x < 100):
+  print(x)check
+  
+  x = x + 1
+  
+  if (x == 100):
+           break
+  print("Done!")
+    Return
+    
+    
+def fruits(listOfFruit):
+
+listOfFruit: ["apple", "pear", "peach", "watermelon", "tomato"]
+for x in fruit:
+  print(x)
+  
+  fruits(listOfFruit)
+  
+  
+def checkStudents(studentList):
+
+listOfStudents= ["Micheal", "Patrice", "Amaya", "William"]
+x = 0
+while (x = len(studentList[0])):

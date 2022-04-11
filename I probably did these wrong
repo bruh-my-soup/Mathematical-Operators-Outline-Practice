@@ -671,6 +671,146 @@ for x in fruit:
   
 def checkStudents(studentList):
 
-listOfStudents= ["Micheal", "Patrice", "Amaya", "William"]
+studentList = [["Micheal", "Patrice", "Amaya", "William"], ["True", "True", "True", "False"]]
 x = 0
 while (x = len(studentList[0])):
+  if(studentList[1][x] == True):
+    print(studentList[1][x] + "is passing.")
+  else(student[1][x] == False):
+    print(studentList[1][x] + "is failing.")
+    print("DONE")
+    
+    return
+    
+    
+def studentGrades(studentList):
+
+for x in grade:
+print(grade):
+print(done)
+
+return
+
+
+
+"This function determines whether the following statements are true or false."
+"Then, it returns the value of the statements with 'True' or 'False'."
+
+def uhWhat(trueOrFalse):
+
+a = True
+b = False
+if (a == True) and (b == True):
+  return True
+else(a == True) and (b == False):
+  return False
+  
+  print(uhWhat(trueOrFalse))
+  
+ 
+ "This function multiplies two integer variables together."
+ "Then, it returns the product."
+ 
+ def productTwoNum(numOne, numTwo):
+       answer = numOne * numTwo
+       return answer
+       
+a = 4
+b = 16
+cups = (4,16)
+  return cups
+  
+  print(productTwoNum(numOne, numTwo)
+  
+  
+"This function subtracts two integer variables from each other."
+"Then, it returns the difference."
+
+def differenceTwoNum(numOne, numTwo):
+      anwer = numOne - numTwo
+      return answer
+      
+c = 4
+d = 5
+difference = (4,5)
+  return difference
+  
+  print(differenceTwoNum(numOne, numTwo))
+  
+  
+  
+"This function subtracts one parameter from another."
+"Then, the difference is returned."
+
+def differenceTwoNum(numOne, numTwo)
+    difference = numOne - numTwo
+    return difference
+    
+a = 6
+b = 2
+difference = (6, 2)
+  return difference
+  
+  
+"This function has one parameter that gets divided by two."
+"Then, the dividend is multiplied by another number."
+"Then, the product has a different number added to it."
+"Lastly, the sum is returned."
+
+def dividendTwoNum(numOne, numTwo)
+  dividend = numOne/numTwo
+  return dividend
+  
+a = 8
+b = 2
+dividend = (a, b)
+  return dividend
+  
+def productTwoNum(numOne, numTwo)
+  product = numOne * numTwo
+  return product
+  
+c = 4
+d = 77
+product = (c, d)
+  return product
+  
+def sumTwoNum(numOne, numTwo)
+  sum = numOne + numTwo
+  return sum
+  
+e = 308
+f = 10000
+sum = (e, f)
+  return sum
+  
+  
+"This function checks if two parameters are equal."
+"If so, the function will return true."
+"If not, the function will return false."
+
+def equalTwoNum(numOne, numTwo)
+  equal = numOne == numTwo
+  return "True" or "False"
+
+a = 3
+b = 6
+equal = (a, b)
+  return "False"
+  
+  
+"This function checks which parameter is bigger."
+"Then, it returns the bigger number."
+"If both numbers are the same, then it returns either one."
+
+def compareNumbers(numOne, numTwo)
+  compare = numOne == numTwo
+  return numOne or numTwo
+  
+a = 4
+b = 4
+compare = (4, 4)
+  return numOne
+  
+  
+"

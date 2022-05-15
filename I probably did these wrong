@@ -893,3 +893,81 @@ x = x - 1
 
 return
 print(compare)
+
+
+
+"This function converts cups to gallons using three steps. It also converts each variable using ounces."
+"First, it converts ounces to cups."
+"Second, it converts cups to quarts."
+"Third, it converts quarts to gallons."
+"Finally, it returns gallons."
+
+def ouncesToGallons(variable == numberOfOunces)
+
+  #8 ounces are in 1 cup
+cups = (1 cup == 8 ounces)
+
+  #4 cups are in 1 quart
+quarts = (1 quart == 4 cups or 32 ounces)
+
+  #4 quarts are in 1 gallon
+gallons = (1 gallon == 4 quarts or 128 ounces)
+
+return gallons
+
+ouncesToGallons(128 ounces)
+
+
+"This function converts gallons to cups using three steps. It also converts each variable using ounces."
+"First, it converts gallons to quarts."
+"Second, it converts quarts to cups."
+"Third, it converts cups to ounces."
+"Finally, it returns ounces."
+
+def gallonsToOunces(varOne/varTwo)
+
+  #1 gallon has 4 quarts or 128 ounces
+gallons = (1 gallon/4 quarts)
+
+  #1 quart has 4 cups or 32 ounces
+quarts = (1 quart/4 cups)
+
+  #1 cup has 8 ounces
+cups = (1 cup/8 counces)
+
+return ounces
+
+gallonsToOunces(8 ounces)
+
+
+"This function converts ounces to pounds using two steps. It also uses the parameter grams."
+"First, it converts ounces to grams."
+"Then, it converts grams to pounds."
+"Finally, it returns pounds."
+
+def ouncesToPounds(variable == numberOfOunces)
+
+  #0.035 ounces are in 1 gram
+grams = (1 gram == 0.035 ounces)
+
+  #There are 16 ounces in 1 pound
+pounds = (1 pound == 16 ounces)
+
+return pounds
+
+ouncesToPounds(16 ounces)
+
+
+"This function converts pounds to grams using one step."
+"First, it converts pounds to grams."
+"Then, it returns grams."
+
+def poundsToGrams(varOne/varTwo)
+
+  #There are 453.59 grams in 1 pound
+pounds = (1 pound/453.59 grams)
+
+grams = 453.59
+return grams
+
+poundsToGrams(453.59 grams)
